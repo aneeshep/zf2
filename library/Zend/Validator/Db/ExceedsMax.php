@@ -15,7 +15,7 @@ use Zend\Db\Sql\Sql;
 use Zend\Db\Sql\TableIdentifier;
 
 /**
- * Confirms a record exists in a table.
+ * Check whether the given field Exceeds the maximum value.
  */
 class ExceedsMax extends AbstractDb
 {
@@ -162,7 +162,6 @@ class ExceedsMax extends AbstractDb
 
         return $result->current();
     }
-
 
 
     public function isValid($value)
